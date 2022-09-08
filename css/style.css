@@ -18,3 +18,12 @@
   img{
     height: 17vh;
   }
+
+  .nomeutente{
+    background-color: rgba(41, 41, 41, 0.616);
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: -8px;
+    left: -285px;
+  }
