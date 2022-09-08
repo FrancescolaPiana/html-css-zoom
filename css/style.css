@@ -11,19 +11,68 @@
     background-color: black;
   }
 
-  .constictor{
-    padding: 40px 80px 40px 80px;
+  .constrictor{
+    padding: 45px 70px 10px 70px;
   }
 
   img{
-    height: 17vh;
+    height: 15vh;
   }
 
   .nomeutente{
     background-color: rgba(41, 41, 41, 0.616);
     color: white;
     padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    font-size: 1.5vh;
+  }
+
+  .prova{
     position: relative;
-    top: -8px;
-    left: -285px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .footbar{
+    position: fixed;
+    z-index: 1000;
+    height: 10vh;
+    width: 100%;
+    background-color: #222222;
+    bottom: 0;
+  }
+
+  .headerbar{
+    position: fixed;
+    z-index: 1000;
+    height: 4vh;
+    width: 100%;
+    background-color: #000000;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .iconeheader{
+    color: white;
+    background-color: #747474;
+    margin: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 4px 6px 4px 6px;
+    vertical-align: middle;
+  }
+
+  .white{
+    color: white;
+  }
+
+  .font1{
+    text-align: center;
+  }
+  
+  .font2{
+    text-align: center;
   }
