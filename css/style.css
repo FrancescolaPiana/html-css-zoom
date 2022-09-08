@@ -1,0 +1,20 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+  }
+
+
+  main{
+    background-color: black;
+  }
+
+  .constictor{
+    padding: 40px 80px 40px 80px;
+  }
+
+  img{
+    height: 17vh;
+  }
