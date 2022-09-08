@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header class="headerbar">
-        <span class="iconeheader" ><i class="fa-solid fa-grid"></i>speaker wiew</span>
-        <span class="iconeheader"><i class="fa-solid fa-maximize"></i></span>
+        <span class="iconeheader"><span class="size material-symbols-outlined">
+            apps
+            </span> <span class="va">Speaker View</span> </span>
+        <span class="va2 iconeheader"><i class="va2 fa-solid fa-maximize"></i></span>
     </header>
 <!-- --------------------------------------------- -->
     <main class="constrictor">
@@ -163,11 +166,74 @@
     </main>
 <!-- --------------------------------------------- -->
     <footer class="footbar">
-        <div>
-            <div>
+        <!-- left container -->
+        <div class="flexbox" id="paddingleft">
+            <a href="">
                 <h1 class="font1 white"><i class="fa-solid fa-microphone"></i></h1>
                 <span class="font2 white">Mute</span>
-            </div>
+            </a>
+
+            <a href="">
+                <i class="font2 white fa-solid fa-angle-up"></i>
+            </a>
+
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-video"></i></h1>
+                <span class="font2 white">Stop Video</span>
+            </a>
+
+            <a href="">
+                <i class="font2 white fa-solid fa-angle-up"></i>
+            </a>
+
+        </div>
+        <!-- middle container -->
+        <div class="flexbox">
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-user-plus"></i></h1>
+                <span class="font2 white">Invite</span>
+            </a>
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-user-group"></i></h1>
+                <span class="font2 white">Manage Partecipants</span>
+            </a>
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-chart-column"></i></h1>
+                <span class="font2 white">Polling</span>
+            </a>
+
+            <a href="">
+                <h1 class="green font1 white"><i class="fa-solid fa-share-from-square"></i></h1>
+                <span class="font2 white">Share Screen </span>
+            </a>
+
+            <a href="">
+                <i class="font2 white fa-solid fa-angle-up"></i>
+            </a>
+
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-comment"></i></h1>
+                <span class="font2 white">Chat</span>
+            </a>
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-record-vinyl"></i></h1>
+                <span class="font2 white">Record</span>
+            </a>
+            <a href="">
+                <h1 class="gog font1 white"><span class="gog material-symbols-outlined">
+                    grid_view
+                    </span></h1>
+                <span class="font2 white">Brekout Rooms</span>
+            </a>
+            <a href="">
+                <h1 class="font1 white"><i class="fa-solid fa-ellipsis"></i></h1>
+                <span class="font2 white">More</span>
+            </a>
+
+        </div>
+        <!-- right container -->
+        <div class="flexbox2">
+            <a class="red" href="indirizzo"><h4>End meeting</h4></a>
         </div>
     </footer>
 </body>
